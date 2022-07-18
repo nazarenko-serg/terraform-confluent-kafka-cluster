@@ -2,11 +2,11 @@ terraform {
   required_providers {
     confluentcloud = {
       source  = "Mongey/confluentcloud"
-      version = ">= 0.0.12"
+      version = "~> 0.0.14"
     }
     kafka = {
       source  = "Mongey/kafka"
-      version = ">= 0.3.3"
+      version = "~> 0.4.2"
     }
     kubernetes = {
       source  = "hashicorp/kubernetes"
